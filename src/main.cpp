@@ -13,10 +13,10 @@ int main() {
 
     cout << message << endl;
 
-    string c_message = GreetingUtils::format_as_c_string(message);
+    char* c_message = GreetingUtils::format_as_c_string(message);
 
     cout << c_message << endl;
 
-    delete &c_message;
+    delete[] c_message;
     return 0;
 }
