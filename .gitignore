@@ -52,3 +52,4 @@ greeter
 
 # Python files
 .py
+__pycache__/
