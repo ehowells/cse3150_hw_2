@@ -37,6 +37,9 @@
 *.out
 *.app
 
+# Compiled executable
+greeter
+
 # debug information files
 *.dwo
 
@@ -46,3 +49,6 @@
 # IDE/project specific files (optional)
 .vscode/
 .idea/
+
+# Python files
+.py
