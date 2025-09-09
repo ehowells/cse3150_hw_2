@@ -17,5 +17,6 @@ int main() {
 
     cout << c_message << endl;
 
+    delete &c_message;
     return 0;
 }
